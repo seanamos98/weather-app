@@ -1,0 +1,20 @@
+{
+  "name": "apaweather",
+  "short_name": "apaweaher",
+  "start_url": ".",
+  "background_color": "#000000",
+  "theme_color": "#009578",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "images/apple192.png",
+      "sizes": "192x109",
+      "type": "image/png"
+    },
+    {
+      "src": "images/apple512.png",
+      "sizes": "512x293",
+      "type": "image/png"
+    }
+  ]
+}

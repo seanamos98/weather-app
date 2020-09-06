@@ -1,0 +1,14 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "This is an application which gives a user the weather condition of an area",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tosin",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0"
+  }
+}

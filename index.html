@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#009578" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/images/apple192.png" />
+
+    <title>Weather App</title>
+  </head>
+  <body>
+    <header>
+      <p class="h4">Apaweather</p>
+
+      <nav>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="top-banner">
+      <div class="container">
+        <h1>Simple weather App</h1>
+        <form>
+          <input type="text" placeholder="Search for a city" autofocus />
+          <button type="submit">SUBMIT</button>
+          <span class="msg"></span>
+        </form>
+      </div>
+    </section>
+    <section class="ajax-section">
+      <div class="container">
+        <ul class="cities"></ul>
+      </div>
+    </section>
+    <main>
+      <section>
+        <div class="weather-wrapper">
+          <div class="app-title">
+            <p>Weather Forecast</p>
+          </div>
+          <div class="notification"></div>
+          <div class="weather-container">
+            <div class="weather-icon">
+              <img src="icons/unknown.png" alt="weadometer" />
+            </div>
+            <div class="temperature-value">
+              <p>- °<span>C</span></p>
+            </div>
+            <div class="temperature-description">
+              <p>-</p>
+            </div>
+            <div class="location">
+              <p>-</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="store">
+        <p class="h4">Download this awesome app</p>
+        <div class="apple-store">
+          <i class="fab fa-apple"></i>
+          <p>
+            <span class="store-text"> Download 0n the </span><br />
+            App Store
+          </p>
+        </div>
+        <div class="apple-store">
+          <i id="play-store-icon" class="fab fa-google-play"></i>
+          <p><span class="store-text">Get it on </span>Google Play</p>
+        </div>
+      </section>
+      <section class="phones">
+        <div>
+          <div class="phone-list">
+            <div>
+              <p class="h4">smartphones</p>
+              <ul>
+                <li>iphone</li>
+                <li>Android</li>
+              </ul>
+            </div>
+            <div>
+              <p class="h4">tablets</p>
+              <ul>
+                <li>ipad</li>
+                <li>Android</li>
+              </ul>
+            </div>
+            <div></div>
+            <div>
+              <p class="h4">stay in touch</p>
+
+              <div class="social-media-list">
+                <a href="https://facebook.com"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="https://instagram.com"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <blockquote>&copy; 2020 Apaweather</blockquote>
+        <div class="footer-item">
+          <ul class="footer-item">
+            <li>Home</li>
+            |
+            <li>Careers</li>
+            |
+            <li>Privacy</li>
+            |
+            <li>Terms</li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
